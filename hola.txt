@@ -16,3 +16,6 @@ se suben los cambios "commited"
     git add -A
     git commit (con un mensaje) (para actualizarlos en el repositorio)
     git push https://github.com/vcerveron/datasciencecoursera
+    
+¿Aclarar para qué sirve?
+  git remote add origin https://
