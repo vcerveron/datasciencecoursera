@@ -1,0 +1,26 @@
+﻿¿Qué he hecho?
+
+Crear un repositorio en github
+
+Crear un repositorio en git
+  git init (ejecutado en el directorio correspondiente)
+
+Bajar
+  git fetch (o pull) https://github.com/vcerveron/datasciencecoursera
+
+Subir
+  git push https://github.com/vcerveron/datasciencecoursera
+
+se suben los cambios "commited"
+  cuando se crean o modifican ficheros
+    git add -A
+    git commit (con un mensaje) (para actualizarlos en el repositorio)
+    git push https://github.com/vcerveron/datasciencecoursera
+    
+¿Aclarar para qué sirve?
+  git remote add origin https://
+
+Fork
+  entramos identificados en github
+  se pone la dirección en el navegador
+  Fork
