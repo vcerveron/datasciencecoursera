@@ -11,7 +11,7 @@ Fork un repositorio en github
 Con Git GUI
   crear un Repositorio nuevo
   (con Git Bash) git pull https://
-  scan + Commit + Push
+  Stage Changed + Commit + Push
 
 
 Con GIT Bash
