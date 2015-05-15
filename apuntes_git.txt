@@ -2,6 +2,20 @@
 
 Crear un repositorio en github
 
+Fork un repositorio en github
+  entramos identificados en github
+  se pone la dirección en el navegador
+  Fork
+
+
+Con Git GUI
+  crear un Repositorio nuevo
+  (con Git Bash) git pull https://
+  scan + Commit + Push
+
+
+Con GIT Bash
+
 Crear un repositorio en git
   git init (ejecutado en el directorio correspondiente)
 
@@ -20,7 +34,3 @@ se suben los cambios "commited"
 ¿Aclarar para qué sirve?
   git remote add origin https://
 
-Fork
-  entramos identificados en github
-  se pone la dirección en el navegador
-  Fork
