@@ -1,0 +1,87 @@
+¿Cómo se trabaja?
+
+
+
+EN GUITHUB
+
+
+
+Crear un repositorio en github
+
+
+
+Fork un repositorio en github
+
+  entramos identificados en github
+
+  se pone la dirección en el navegador
+
+  Fork
+
+
+
+EN LOCAL
+ (git help)
+
+Al instalar GIT, 
+  en Git Bash:
+    git config --global user.name "vcerveron"
+
+    git config --global user.email cerveron@uv.es
+    git config --global gui.encoding utf-8
+
+CLONAR DE LA RED un repositorio de GitHub, en un directorio antes inexistente
+  en Git Gui 
+
+o Crear un repositorio local en una carpeta local
+
+  git init
+
+
+
+Cuando se añade o modifica localmente un fichero, en Git Gui
+
+
+  Stage Changed + Commit + Push
+
+
+
+Cuando se añade localmente un nuevo fichero, en Git Bash
+  git add FICHERO
+
+  git commit -m 'Mensaje'
+  git push https://github.com/vcerveron/datasciencecoursera
+    
+  git add -A ¿cuándo?
+
+
+SUBIR CAMBIOS A LA RED
+##  git remote add origin git@github.com:tuusuario/Prueba.git
+##  git push origin master (luego basta git push)
+
+
+  en Git Gui
+    Push
+    Arbitrary Location https://github.com/vcerveron/...
+    GitHub User: vcerveron
+    GitHub Password:
+
+¿Qué hace?
+
+
+  
+  Bajar
+  git fetch (o pull) https://github.com/vcerveron/datasciencecoursera
+
+
+
+
+¿Aclarar para qué sirve?
+  
+  git remote add origin https://
+
+
+
+¿Comprobar Status?
+  git status -s
+
