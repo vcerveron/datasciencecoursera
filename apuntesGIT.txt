@@ -37,6 +37,9 @@ o Crear un repositorio local en una carpeta local
 
   git init
 
+TRAERSE CAMBIOS DE LA RED
+  git pull origin master
+
 
 
 Cuando se añade o modifica localmente un fichero, en Git Gui
