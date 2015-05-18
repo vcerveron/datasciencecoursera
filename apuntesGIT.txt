@@ -45,28 +45,24 @@ BAJARSE CAMBIOS DE LA RED
 SUBIR MODIFICACIONES
 
 
-Cuando se añade o modifica localmente un fichero, en Git Gui
 
-
-  Stage Changed + Commit + Push
-
-
-
-Cuando se añade localmente un nuevo fichero, en Git Bash
-  git add FICHERO // o git add -A
-  git commit -m 'Mensaje'
-  git push https://github.com/vcerveron/datasciencecoursera
+Cuando se añade o modifica localmente un fichero
+  En Git Bash
+    git add FICHERO // o git add -A
+    git commit -m 'Mensaje'
+    git push https://github.com/vcerveron/datasciencecoursera
     
-    o git push origin
+      o git push origin
 
 
 
-
+  
 En Git Gui
-    Push
-    Arbitrary Location https://github.com/vcerveron/...
-    GitHub User: vcerveron
-    GitHub Password:
+    Stage Changed + Commit
+    +Push
+      Arbitrary Location https://github.com/vcerveron/...
+      GitHub User: vcerveron
+      GitHub Password:
 
 
 ¿Qué hace?
