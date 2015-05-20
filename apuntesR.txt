@@ -73,3 +73,43 @@ $name
 
 data[1:3,] 3 primeras filas
 nrow(data)
+
+c() : crear un vector
+list() : componer una lista
+matrix() : componer una matriz
+
+rep() : repeat
+range() : rango, muestra el máximo y el mínimo
+
+
+str(nombre_de_funcion) muestra el prototipo de una función
+
+
+
+lapply : aplicar "iterativamente" una función a una lista (con posibles parámetros adicionales)
+  devolviendo una lista (incluso de elementos simples) con el resultado de aplicar la función con los diferentes elementos de la lista
+
+  puede usar funciones "anónimas", que se definenn como sin nombre en el mismo lapply
+
+sapply : simplificación: en lugar de listas, devuelve, si puede, vectores o matrices
+
+apply : aplicar iterativamente una función, habitualmente sobre partes (filas, columnas) de un array
+  no es más rápida que un loop, pero sí más corta de escribir
+  MARGIN = 1 por filas
+  MARGIN = 2 por columnas
+  tiene atajos: rowSums, rowMeans, colSums, colMeans
+
+mapply (es diferente)
+  aplicar funciones a conjuntos múltiples de argumentos
+  permite vectorización instantánea (?)
+
+tapply
+  aplicar una función sobre subconjuntos (por clases) de un vector
+  usa factors ("clasificadores")
+
+split
+  separa un vector según los factors (clasificadores) 
+  es típico combinarlo con lapply : lapply(split(x,f),mean)
+  o usarlo para separar dataframes
+   PRACTICAR con el ejemplo de AirQuality y separar por meses
+  puede separar en más de un nivel
