@@ -38,6 +38,7 @@ all() si todos son TRUE
 
 list() admite tipos diferentes
 de hecho, hace listas de vectores
+de las listas se extraen los elementos con [[ ]]
 
 m <- matrix(nrow = 2, ncol = 3)
 dim(m) devuelve las dimensiones
@@ -64,6 +65,16 @@ x <- data.frame( codi = 1:3, name = c("pepe","juan","luisa"))
 data.frame() forma un data frame
   colnames(d) permite consultar o poner nombres a las columnas
 
+FUNCIONES
+args() devuelve los argumentos de una función
+se pueden pasar funciones como argumentos de otras funciones
+se pueden usar funciones sin nombre (anónimas), escritas en línea
+
+paste() concatena cadenas (?paste, sep=" ", collapse=NULL)
+... como argumentos "indefinidos"
+list(...) convierte los argumentos "indefinidos" en una lista
+
+se pueden crear nuevos operadores binarios definiendo una función %name%
 
 read.table
 read.csv
